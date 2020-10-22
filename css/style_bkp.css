@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: silver;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(75, 2, 93);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    padding: 50px 20px 40px 20px;
+}
+
+.logo {
+    font-size: 38px;
+    line-height: 50px;
+    margin-left: 20px;
+    font-weight: 900;
+    color: rgb(75, 2, 93);
+    text-shadow: 1px 1px 2px white, 0 0 1em white;
+    padding: 0;
+}
+
+.username {
+    height: 50px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.username a {
+    display: block;
+    margin-left: 8px;
+    color: white;
+}
+
+#newpic_btn {
+    position: fixed;
+    right: 35px;
+    top: 60px;
+    background-color: rgb(75, 2, 93);
+    padding: 5px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#newpic_btn a {
+    margin: 0;
+}
+
+
+h2 {
+    margin-top: 40px;
+}
+
+
+
+.btn {
+    background-color: rgb(75, 2, 93);
+    border-width: 2px;
+    border-style: outset;
+    border-color: rgb(131, 4, 162), rgb(30, 1, 37);
+    color: white;
+    text-align: center;
+    width: 80px;
+    height: 26px;
+    font-size: 2vh;
+    margin-right: 15px;
+    /* padding: 0.5vh; */
+}
+
+.btn a {
+    color: white;
+}
+
+
